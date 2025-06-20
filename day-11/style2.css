@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header,footer{
+    background-color: rgb(62, 62, 227);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+
+
+}
+.cards{
+    background-color:white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px rgb(126, 125, 125);
+    border: 1px solid blue;
+    flex-wrap: wrap;
+}
+.pricing{
+    display: flex;
+    text-align: center;
+    width: 220px;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    width: 90px;
+}
+.cards{
+    justify-content: space-evenly;
+    gap:0px;
+    display: flex;
+}
